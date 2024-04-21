@@ -1,0 +1,103 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <link href="styles.css" rel="stylesheet"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+  <body id="body">
+    <header id="header">
+      <nav id="nav-bar">NAV-BAR:
+        <a class="nav-link" href="#header-img">header-img</a>
+        <a class="nav-link" href="#video">video</a>
+        <a class="nav-link" href="#form">form</a>
+      </nav>
+      <img id="header-img" src="https://th.bing.com/th?id=OPHS.r3%2bNAekbhtI1Qg474C474&w=143&h=122&c=17&qlt=100&o=6&dpr=1.5&pid=3.1">
+    </header><p id="img-text">Yoda Doormat : $100</p>
+    <select id="moneySelect">
+      <option>$100</option>
+      <option>$200</option>
+      <option>$300</option>
+      <option>$400</option>
+      <option>$500</option>
+      <option>$1000</option>
+      <option>$2000</option>
+      <option>$4000</option>
+      <option>$6000</option>
+      <option>$8000</option>
+      <option>$10000</option>
+    </select>
+    <div>
+      <video id="video" src="https://www.youtube.com/watch?v=Qb6lRZDbSPI&pp=ygUSeW9kYSBkb29ybWF0IHZpZGVv"></video>
+    </div>
+    <form id="form" action="https://www.freecodecamp.com/email-submit"></a>
+      <input id="email" name="email" type="email" placeholder="Please enter an Email" required />
+      <input id="submit" type="submit" value="Submit" />
+    </form>
+  </body>
+  <footer id="footer">
+  </footer>
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+#nav-bar {
+  width:100%;
+  background-color: lightblue;
+  position: fixed;
+  top: 0; 
+}
+
+#header {
+  padding-top: 15px;
+  background-color: lightgreen;
+}
+
+@media (max-width: 10px) {
+  width: 100px;
+} 
+
+#header-img {
+  display: flex;
+  align-items: flex-end;
+}
+
+#img-text {
+  color:pink;
+  background-color: darkgreen
+}
+
+#body {
+  display: left
+  align-items: center;
+  background-color: lightgreen
+}
+
+video {
+  background-color: darkgreen;
+  display: flex;
+  align-items: flex-end;
+  }
+
+#submit {
+  background-color: pink;
+  padding: 7px;
+  border-color: red;
+  border-width: 4px
+}
+
+#email {
+  background-color: lightgreen;
+  color: darkgreen;
+}
+
+img {
+  background-color: darkgreen;
+}
+
+** end of undefined **
+
